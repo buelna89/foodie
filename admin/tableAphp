@@ -1,0 +1,195 @@
+<?php 
+include('./adminPartials/adminHeader.php');
+?>
+
+    <div class="adminPage flex">
+       <?php 
+       include('./adminPartials/sideMenuA.php');
+       ?>
+
+         <div class="mainBody">
+            <div class="topSection flex">
+                <div class="title">
+                    <span><strong>Table Reservations</strong> Page </span>
+                </div>
+
+                <?php 
+                    include('./adminPartials/headerAdminAccount.php');
+                ?> 
+            </div>
+
+            <div class="mainBodyContentContainer">
+                <div class="orderDiv">
+                    <table class="table">
+                        <tr class="tblHeader">
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Contact</th>
+                            <th>Date</th>
+                            <th>Time</th>
+                            <th>T/L People</th>
+                            <th>Billed</th>
+                            <th>Status</th>
+                            <th>Action</th>
+                        </tr>
+    
+                        <tr class="tblRow orderRow">
+                            <td class="id">001</td>
+                            <td class="customerName">
+                               <span class="name" style="text-transform:capitalize">Ronald Erias</span>
+                            </td>
+    
+                            <td class="contact">
+                                <p>05477875980</p>
+                            </td>
+    
+                            <td class="location">
+                                <p>12/1/2023</p>
+                            </td>
+    
+                            <td class="status">            
+                                <p>05:45</p>
+                            </td>
+    
+                            <td class="occupancy">
+                                <p>3</p>
+                            </td>
+
+                            <td class="billedAmount">
+                                <p>$104</p>
+                            </td>
+
+                            <td class="occupancy">
+                                <p>Booked</p>
+                            </td>
+    
+                            <td class="action">
+                                <a href="">
+                                    <i class="uil uil-file-info-alt icon"></i>
+                                </a>
+                            </td>
+                        </tr>
+
+                        <tr class="tblRow orderRow">
+                            <td class="id">002</td>
+                            <td class="customerName">
+                               <span class="name">Ali Ahmed</span>
+                            </td>
+    
+                            <td class="contact">
+                                <p>05477875980</p>
+                            </td>
+    
+                            <td class="location">
+                                <p>12/1/2023</p>
+                            </td>
+    
+                            <td class="status">            
+                                <p>05:45</p>
+                            </td>
+    
+                            <td class="occupancy">
+                                <p>4</p>
+                            </td>
+
+                            <td class="billedAmount">
+                                <p>$34</p>
+                            </td>
+
+                            <td class="occupancy">
+                                <p  class="checkedIn">Checked-In</p>
+                            </td>
+    
+                            <td class="action">
+                                <a href="">
+                                    <i class="uil uil-file-info-alt icon"></i>
+                                </a>
+                            </td>
+                        </tr>
+
+                        <tr class="tblRow orderRow">
+                            <td class="id">003</td>
+                            <td class="customerName">
+                               <span class="name">Abho Nelioson</span>
+                            </td>
+    
+                            <td class="contact">
+                                <p>05477875980</p>
+                            </td>
+    
+                            <td class="location">
+                                <p>12/1/2023</p>
+                            </td>
+    
+                            <td class="status">            
+                                <p>02:45</p>
+                            </td>
+    
+                            <td class="occupancy">
+                                <p>10</p>
+                            </td>
+
+                            <td class="billedAmount">
+                                <p>$130</p>
+                            </td>
+
+                            <td class="occupancy">
+                                <p class="canceled">Canceled</p> 
+                            </td>
+    
+                            <td class="action">
+                                <a href="">
+                                    <i class="uil uil-file-info-alt icon"></i>
+                                </a>
+                            </td>
+                        </tr>
+
+                        <tr class="tblRow orderRow">
+                            <td class="id">004</td>
+                            <td class="customerName">
+                               <span class="name">Abigail Lindsey</span>
+                            </td>
+    
+                            <td class="contact">
+                                <p>05477875980</p>
+                            </td>
+    
+                            <td class="location">
+                                <p>12/3/2023</p>
+                            </td>
+    
+                            <td class="status">            
+                                <p>02:48</p>
+                            </td>
+    
+                            <td class="occupancy">
+                                <p>2</p>
+                            </td>
+
+                            <td class="billedAmount">
+                                <p>$24</p>
+                            </td>
+
+                            <td class="occupancy">
+                                <p class="closed">Closed</p> 
+                            </td>
+    
+                            <td class="action">
+                                <a href="">
+                                    <i class="uil uil-check-circle icon"></i>
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                
+               
+            </div>
+
+         </div>
+    </div>
+
+
+<?php 
+include('./adminPartials/adminFooter.php');
+?>

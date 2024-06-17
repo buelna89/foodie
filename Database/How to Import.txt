@@ -1,0 +1,20 @@
+Hi, 
+
+Thanks for downloading this project, a lot of people import this SQL file the wrong way.
+That's why i created this file to guide you somehow!
+
+I assume you use phpMyAdmin for your local databases.
+
+Step 1: Craete a new database and name it "foodiedb" -  Should be the exact name i named it.
+Step 2: Select it and click "Import" - Make sure the title reads <Importing into dataabase "foodiedb">
+Step 3: Choose the file from C:\xampp\htdocs\foodie\Database
+Step 4: Scroll down the page and check if Format id SQL.
+
+Step 5: Scroll to the bottom of the page and click "Import"
+
+You are good to go!
+
+You might still find some challenges for some reasons, please contact me i wil help you!
+Thank You!
+
+- IsraTech

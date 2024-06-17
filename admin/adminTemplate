@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <title>Foodie Project</title>
+
+    <!-- Link to css -->
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="/admin/admin.css">
+
+    <!-- Link to swiper css -->
+    <link rel="stylesheet" href="./swiper-bundle.min.css">
+
+    <!-- Link to icons -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <script src="https://kit.fontawesome.com/c93511b22d.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <div class="adminPage flex">
+        <div class="sideMenu">
+            <div class="logoDiv flex">
+                <img src="../Assests/floating (2).png" alt="Logo Image">
+                <h1>Foodie.</h1>
+            </div>
+
+            <div class="menuList">
+                <span class="listTitle">
+                    MENU
+                </span>
+                <ul class="menuLists">
+                    <li class="listItem active">
+                        <a href="dasboard.html" class="menuLink flex">
+                            <i class='bx bxs-home-smile icon'></i>
+                            <span class="LinkText">Home</span>
+                        </a>
+                    </li>
+
+                    <li class="listItem">
+                        <a href="orders.html" class="menuLink flex">
+                            <i class='bx bxs-cart icon' ></i>
+                            <span class="LinkText">All Orders</span>
+                        </a>
+                    </li>
+
+                    <li class="listItem">
+                        <a href="table.html" class="menuLink flex">
+                            <i class="uil uil-lamp icon"></i>
+                            <span class="LinkText">Table Reservations</span>
+                        </a>
+                    </li>
+
+                    <li class="listItem">
+                        <a href="menu.html" class="menuLink flex">
+                            <i class='bx bxs-bowl-rice icon'></i>
+                            <span class="LinkText">All Menu</span>
+                        </a>
+                    </li>
+
+                    <li class="listItem">
+                        <a href="review.html" class="menuLink flex">
+                            <i class='bx bxs-message-alt-dots icon' ></i>
+                            <span class="LinkText">Customer Reviews</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="menuList">
+                <span class="listTitle">
+                        OTHERS
+                </span>
+                <ul class="menuLists">
+                   
+
+                    <li class="listItem">
+                        <a href="db.html" class="menuLink flex">
+                            <i class='bx bxs-face icon' ></i>
+                            <span class="LinkText">Delivery Boys</span>
+                        </a>
+                    </li>
+
+                    <li class="listItem">
+                        <a href="subscribers.html" class="menuLink flex">  
+                            <i class='bx bxs-envelope icon' ></i>
+                            <span class="LinkText">Subscription</span>
+                        </a>
+                    </li>
+
+                    <li class="listItem">
+                        <a href="settings.html" class="menuLink flex">
+                            <i class='bx bxs-cog icon' ></i>
+                            <span class="LinkText">Settings</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+         <div class="mainBody">
+            <div class="topSection flex">
+                <div class="title">
+                    <span><strong>Foodie</strong> Dashboard</span>
+                </div>
+
+                <div class="adminDiv flex">
+                    <div class="notDiv">
+                        <i class='bx bxs-bell icon' ></i>
+                        <span class="count">4</span>
+                    </div>
+                    <div class="imgDiv flex">
+                        <img src="../Assests/user (1).jpg" alt="Account Admin Image">
+                        <span class="name">Israel <br><small>Administrator</small></span>
+                    </div>
+                </div>
+            </div>
+
+         </div>
+    </div>
+
+
+    <!-- Link Admin.js -->
+    <script src="admin.js"></script>
+</body>
+</html>
