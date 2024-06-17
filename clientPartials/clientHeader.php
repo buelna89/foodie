@@ -83,7 +83,7 @@ include('./config/config.php');
                 <i class="uil uil-phone icon phoneIcon"></i>
                 <div class="phoneCard flex">
                     <i class='bx bxs-phone'></i>
-                    <h3> +444 789 445 67</h3>
+                    <h3> +1 760 997 2157</h3>
                 </div>
              </div>
 

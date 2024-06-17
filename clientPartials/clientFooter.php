@@ -12,7 +12,7 @@
              579 8th Avenue Canadian Highway, 3443. <br>
              Canada.
              
-             <span class="phone">+444 789 000 00</span>
+             <span class="phone">+1 760 997 2157</span>
          </p>
  
          <div class="socials flex">

@@ -294,7 +294,7 @@ ob_start();
 
                     <div class="customerDetails flex">
                         <div class="img">
-                            <img src="./Assests/foodie user.png" alt="Online food ordering">
+                            <img src="./Assests/faceIcon.png" alt="Online food ordering">
                         </div>
                         <div class="name">
                             <small>Buelna89</small> <br>
