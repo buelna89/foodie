@@ -9,8 +9,8 @@
              </a>
          </div>
          <p>
-             579 8th Avenue Canadian Highway, 3443. <br>
-             Canada.
+             15 Corte Amor <br>
+             San Diego
              
              <span class="phone">+1 760 997 2157</span>
          </p>

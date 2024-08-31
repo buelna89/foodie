@@ -73,7 +73,7 @@ include('clientPartials/clientHeader.php');
                                                                 ?>
                                                                 <div class="foodDetails">
                                                                     <span class="name_closeIcon flex">
-                                                                        <?php echo $foodName?>
+                                                                        <span>Item: <?php echo $foodName?></span>
                                                                         <a href="<?php echo SITEURL?>deleteCartItem.php?id=<?php echo $cartID?>" class="deleteCartItem"><i class='bx bx-x icon' ></i></a>
                                                                     </span>
                                                                     <span class="qty_price flex">
